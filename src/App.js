@@ -1,11 +1,15 @@
+import React, { Fragment } from 'react';
 import './App.css';
+import { Message } from './components/Message/Message.jsx';
 
-function App(props) {
+
+function App() {
  return (
    <div className="App">
      <header className="App-header">
-       My First React App
-       <h3>Hello, {props.name}</h3>
+       Мое первое приложение
+       <h3>Привет, Анатолий</h3>
+       <Message name={'Анатолий'} help={'Игорю Ивановичу'} phone={'+7 777 777 77 77'} />
      </header>
    </div>
  );
