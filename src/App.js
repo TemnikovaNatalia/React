@@ -2,7 +2,6 @@ import React from 'react';
 import style from './App.css';
 import { Message } from './components/Message/Message.jsx';
 
-
 export function App() {
  return (
    <div className="App">
